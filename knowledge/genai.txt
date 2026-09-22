@@ -1,0 +1,66 @@
+GENERATIVE AI KNOWLEDGE
+
+Generative AI:
+Generative AI is artificial intelligence that can generate new content such as text, images, code, audio or other data.
+
+Large Language Model:
+An LLM is a neural network trained on large amounts of text to understand and generate human-like language.
+
+Prompt:
+A prompt is an instruction or input given to an AI model to generate a response.
+
+Prompt Engineering:
+Prompt engineering is the process of designing effective instructions to guide an AI model toward useful and reliable outputs.
+
+Zero-Shot Prompting:
+Zero-shot prompting asks a model to perform a task without providing examples.
+
+Few-Shot Prompting:
+Few-shot prompting provides examples in the prompt to guide the model's behavior.
+
+Chain-of-Thought:
+Chain-of-thought refers to reasoning steps used by a model to solve complex problems. Applications should generally request concise reasoning or answers rather than exposing private reasoning.
+
+Embeddings:
+Embeddings are numerical vector representations of text or other data. Similar meanings can have similar vector representations.
+
+Vector Database:
+A vector database stores embeddings and allows similarity searches.
+
+RAG:
+Retrieval-Augmented Generation combines information retrieval with generative AI.
+
+A RAG system first retrieves relevant information from a knowledge base and then provides that information to an LLM so that the LLM can generate a grounded response.
+
+Basic RAG pipeline:
+1. Collect documents
+2. Split documents into chunks
+3. Generate embeddings
+4. Store embeddings
+5. Retrieve relevant chunks
+6. Send retrieved context to the LLM
+7. Generate the final answer
+
+RAG reduces the need to put all knowledge directly into the model prompt and allows an application to use its own knowledge base.
+
+Agentic AI:
+Agentic AI refers to AI systems that can decide what actions or tools to use to accomplish a goal.
+
+An AI agent can:
+- Understand a request
+- Plan an action
+- Select tools
+- Execute tools
+- Observe results
+- Continue reasoning
+- Produce a final answer
+
+Tool Calling:
+Tool calling allows an LLM to request that an application execute a predefined function.
+
+MCP:
+Model Context Protocol is a standardized protocol for connecting AI applications with external tools and data sources.
+
+RAG and MCP are different:
+RAG primarily retrieves relevant knowledge.
+MCP provides a standardized way for an AI application to interact with external tools and resources.

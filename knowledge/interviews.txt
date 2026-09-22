@@ -1,0 +1,88 @@
+TECHNICAL INTERVIEW KNOWLEDGE
+
+Python:
+Python is a high-level, interpreted programming language widely used in software development, data science, machine learning and AI.
+
+Important Python concepts:
+- Variables
+- Data types
+- Lists
+- Tuples
+- Sets
+- Dictionaries
+- Functions
+- Lambda functions
+- Exception handling
+- Object-oriented programming
+- Decorators
+- Generators
+- List comprehensions
+
+OOP:
+The four major pillars of object-oriented programming are:
+1. Encapsulation
+2. Abstraction
+3. Inheritance
+4. Polymorphism
+
+SQL:
+SQL is used to store, retrieve, manipulate and manage relational database data.
+
+Important SQL concepts:
+- SELECT
+- WHERE
+- GROUP BY
+- HAVING
+- ORDER BY
+- JOIN
+- Subquery
+- Primary Key
+- Foreign Key
+- Normalization
+- Transactions
+- ACID
+
+Primary Key:
+A primary key uniquely identifies a row in a table.
+
+Foreign Key:
+A foreign key creates a relationship between tables by referring to a key in another table.
+
+JOIN:
+A JOIN combines rows from multiple tables using a related column.
+
+Normalization:
+Normalization organizes relational database tables to reduce redundancy and improve data integrity.
+
+ACID:
+ACID stands for:
+- Atomicity
+- Consistency
+- Isolation
+- Durability
+
+Machine Learning Interview:
+Important areas include:
+- Supervised learning
+- Unsupervised learning
+- Classification
+- Regression
+- Overfitting
+- Underfitting
+- Feature engineering
+- Model evaluation
+- Cross-validation
+- Hyperparameter tuning
+
+GenAI Interview:
+Important areas include:
+- LLMs
+- Prompt engineering
+- Embeddings
+- Vector databases
+- RAG
+- Agents
+- Tool calling
+- MCP
+- Hallucination
+- Context windows

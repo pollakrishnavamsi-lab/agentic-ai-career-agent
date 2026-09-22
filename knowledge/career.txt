@@ -1,0 +1,80 @@
+CAREER AND JOB PREPARATION KNOWLEDGE
+
+AI/ML Engineer:
+An AI/ML Engineer develops, trains, evaluates and deploys machine learning and artificial intelligence systems.
+
+Important AI/ML Engineer skills:
+- Python
+- SQL
+- Machine Learning
+- Deep Learning
+- Statistics
+- Data Structures and Algorithms
+- Git
+- APIs
+- Model deployment
+- Cloud fundamentals
+
+GenAI Engineer:
+A GenAI Engineer builds applications using large language models and generative AI technologies.
+
+Important GenAI skills:
+- Python
+- LLM APIs
+- Prompt Engineering
+- Embeddings
+- Vector Databases
+- RAG
+- Agentic AI
+- Tool Calling
+- MCP
+- Evaluation
+- APIs
+
+Data Scientist:
+A Data Scientist analyzes data, builds statistical and machine learning models and communicates insights.
+
+Important Data Scientist skills:
+- Python
+- SQL
+- Statistics
+- Pandas
+- NumPy
+- Visualization
+- Machine Learning
+- Experimentation
+
+Interview Preparation:
+A candidate preparing for an AI/ML or GenAI role should focus on:
+1. Python programming
+2. SQL
+3. Machine Learning fundamentals
+4. Deep Learning fundamentals
+5. Generative AI
+6. RAG
+7. Agentic AI
+8. Projects
+9. Data Structures and Algorithms
+10. Communication
+
+Project Explanation:
+A strong project explanation should cover:
+- Problem
+- Dataset
+- Data preprocessing
+- Approach
+- Model
+- Training
+- Evaluation
+- Deployment
+- Results
+- Future improvements
+
+Resume:
+A technical resume should clearly communicate skills, projects, education, certifications and measurable achievements.
+
+Job Matching:
+A job matching system can compare candidate skills with job requirements and calculate a match score.
+
+Skill Gap:
+A skill gap represents skills required by a target role that are not currently present or sufficiently demonstrated in the candidate profile.

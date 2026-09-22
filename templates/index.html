@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Career Agent</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    >
+
+</head>
+
+
+<body>
+
+<div class="app">
+
+
+    <!-- =====================================================
+         SIDEBAR
+    ====================================================== -->
+
+    <aside class="sidebar">
+
+
+        <!-- BRAND -->
+
+        <div class="brand">
+
+            <div class="brand-icon">
+                C
+            </div>
+
+            <div class="brand-text">
+
+                <div class="brand-name">
+                    Career Agent
+                </div>
+
+                <div class="brand-subtitle">
+                    AI Career Assistant
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- NEW CHAT -->
+
+        <button
+            id="newConversationBtn"
+            class="new-conversation"
+            type="button"
+        >
+
+            <span class="new-icon">+</span>
+
+            <span>
+                New conversation
+            </span>
+
+        </button>
+
+
+        <!-- PROFILE -->
+
+        <div class="sidebar-section">
+
+            <div class="sidebar-title">
+                Your profile
+            </div>
+
+
+            <div
+                id="profileBox"
+                class="profile-box"
+            >
+
+                <div
+                    id="profileName"
+                    class="profile-name"
+                >
+                    No resume uploaded
+                </div>
+
+
+                <div
+                    id="profileSkills"
+                    class="profile-detail"
+                >
+                    Upload your resume to build your profile
+                </div>
+
+
+                <div
+                    id="profileEducation"
+                    class="profile-detail"
+                >
+                </div>
+
+
+                <div
+                    id="profileProjects"
+                    class="profile-detail"
+                >
+                </div>
+
+
+                <div
+                    id="profileCertifications"
+                    class="profile-detail"
+                >
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- HELP -->
+
+        <div class="sidebar-section">
+
+            <div class="sidebar-title">
+                What I can help with
+            </div>
+
+
+            <div class="help-list">
+
+
+                <button
+                    class="help-item"
+                    data-message="Find suitable jobs for my profile"
+                    type="button"
+                >
+
+                    <span class="help-icon">
+                        ⌕
+                    </span>
+
+                    <span>
+                        Find suitable jobs
+                    </span>
+
+                </button>
+
+
+                <button
+                    class="help-item"
+                    data-message="Analyze my resume and tell me my strengths and weaknesses"
+                    type="button"
+                >
+
+                    <span class="help-icon">
+                        ✓
+                    </span>
+
+                    <span>
+                        Match your resume
+                    </span>
+
+                </button>
+
+
+                <button
+                    class="help-item"
+                    data-message="Help me prepare for my technical interview"
+                    type="button"
+                >
+
+                    <span class="help-icon">
+                        ?
+                    </span>
+
+                    <span>
+                        Interview preparation
+                    </span>
+
+                </button>
+
+
+                <button
+                    class="help-item"
+                    data-message="Teach me AI, Generative AI, RAG, MCP and Agentic AI"
+                    type="button"
+                >
+
+                    <span class="help-icon">
+                        ◈
+                    </span>
+
+                    <span>
+                        Learn AI & GenAI
+                    </span>
+
+                </button>
+
+
+            </div>
+
+        </div>
+
+
+        <!-- SIDEBAR BOTTOM -->
+
+        <div class="sidebar-bottom">
+
+
+            <button
+                id="uploadResumeBtn"
+                class="upload-button"
+                type="button"
+            >
+
+                ↑ &nbsp; Upload resume
+
+            </button>
+
+
+            <input
+                id="resumeInput"
+                type="file"
+                accept=".pdf,.docx,.txt"
+                hidden
+            >
+
+
+            <button
+                id="resetBtn"
+                class="reset-button"
+                type="button"
+            >
+
+                Reset session
+
+            </button>
+
+
+        </div>
+
+
+    </aside>
+
+
+
+    <!-- =====================================================
+         MAIN
+    ====================================================== -->
+
+    <main class="main">
+
+
+        <!-- HEADER -->
+
+        <header class="topbar">
+
+            <div>
+
+                <h1>
+                    Career Assistant
+                </h1>
+
+                <p>
+                    Ask me anything about your career, jobs, skills or interviews.
+                </p>
+
+            </div>
+
+
+            <div class="online">
+
+                <span class="online-dot"></span>
+
+                Online
+
+            </div>
+
+        </header>
+
+
+
+        <!-- =================================================
+             CHAT
+        ================================================== -->
+
+        <section
+            id="chat"
+            class="chat"
+        >
+
+
+            <!-- WELCOME -->
+
+            <div
+                id="welcome"
+                class="welcome"
+            >
+
+                <div class="welcome-logo">
+                    C
+                </div>
+
+
+                <h2>
+                    How can I help with your career?
+                </h2>
+
+
+                <p>
+                    Upload your resume or ask me about jobs,
+                    interviews, skills and career preparation.
+                </p>
+
+
+                <div class="suggestions">
+
+
+                    <button
+                        type="button"
+                        data-message="Find the best jobs for my profile"
+                    >
+                        Find jobs
+                    </button>
+
+
+                    <button
+                        type="button"
+                        data-message="Analyze my resume"
+                    >
+                        Analyze resume
+                    </button>
+
+
+                    <button
+                        type="button"
+                        data-message="Help me prepare for a technical interview"
+                    >
+                        Interview prep
+                    </button>
+
+
+                    <button
+                        type="button"
+                        data-message="Explain RAG and how it works"
+                    >
+                        Learn RAG
+                    </button>
+
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =================================================
+             CHAT INPUT
+        ================================================== -->
+
+        <div class="composer">
+
+
+            <div class="composer-box">
+
+
+                <textarea
+                    id="message"
+                    rows="1"
+                    placeholder="Ask Career Agent..."
+                    autocomplete="off"
+                ></textarea>
+
+
+                <button
+                    id="sendBtn"
+                    class="send-button"
+                    type="button"
+                    aria-label="Send message"
+                >
+                    ↑
+                </button>
+
+
+            </div>
+
+
+            <div class="input-note">
+
+                Career Agent can search jobs, analyze your profile and retrieve career knowledge.
+
+            </div>
+
+
+        </div>
+
+
+    </main>
+
+</div>
+
+
+
+<!-- =======================================================
+     UPLOAD MODAL
+======================================================== -->
+
+<div
+    id="uploadModal"
+    class="upload-modal hidden"
+>
+
+    <div class="upload-modal-card">
+
+        <div class="modal-icon">
+            ↑
+        </div>
+
+        <h3>
+            Upload your resume
+        </h3>
+
+        <p>
+            PDF, DOCX or TXT files are supported.
+        </p>
+
+        <button
+            id="modalUploadBtn"
+            class="modal-upload-button"
+            type="button"
+        >
+            Choose resume
+        </button>
+
+        <button
+            id="closeModalBtn"
+            class="modal-close-button"
+            type="button"
+        >
+            Cancel
+        </button>
+
+    </div>
+
+</div>
+
+
+
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+
+</body>
+
+</html>

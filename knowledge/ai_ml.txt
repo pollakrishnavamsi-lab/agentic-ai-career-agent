@@ -1,0 +1,73 @@
+AI AND MACHINE LEARNING KNOWLEDGE
+
+Machine Learning:
+Machine Learning is a branch of artificial intelligence where computers learn patterns from data and use those patterns to make predictions or decisions.
+
+Supervised Learning:
+Supervised learning uses labeled data. The model learns a relationship between input features and target labels.
+
+Common supervised learning algorithms:
+- Linear Regression
+- Logistic Regression
+- Decision Trees
+- Random Forest
+- Support Vector Machines
+- K-Nearest Neighbors
+- Gradient Boosting
+
+Unsupervised Learning:
+Unsupervised learning works with data without labeled target values.
+
+Common algorithms:
+- K-Means Clustering
+- Hierarchical Clustering
+- PCA
+
+Classification:
+Classification predicts a category or class.
+
+Examples:
+- Spam or not spam
+- Disease or healthy
+- Fraud or not fraud
+
+Regression:
+Regression predicts a continuous numerical value.
+
+Examples:
+- House price prediction
+- Salary prediction
+- Temperature prediction
+
+Overfitting:
+Overfitting occurs when a model learns the training data too closely and performs poorly on unseen data.
+
+Underfitting:
+Underfitting occurs when a model is too simple to capture important patterns in the data.
+
+Train/Test Split:
+Training data is used to train the model, while test data is used to evaluate performance on unseen examples.
+
+Accuracy:
+Accuracy is the proportion of correct predictions among all predictions.
+
+Precision:
+Precision measures how many predicted positive examples are actually positive.
+
+Recall:
+Recall measures how many actual positive examples were correctly identified.
+
+F1 Score:
+F1 score is the harmonic mean of precision and recall.
+
+Neural Networks:
+Neural networks are machine learning models inspired by the structure of biological neurons.
+
+CNN:
+A Convolutional Neural Network is commonly used for image-related tasks. CNNs use convolution layers to detect features such as edges, textures and shapes.
+
+LSTM:
+Long Short-Term Memory networks are a type of recurrent neural network designed to handle sequential data and long-term dependencies.
+
+Deep Learning:
+Deep learning uses neural networks with multiple layers to learn complex representations from data.
