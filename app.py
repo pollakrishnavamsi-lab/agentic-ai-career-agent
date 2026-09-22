@@ -21,10 +21,7 @@ load_dotenv(BASE_DIR / ".env")
 
 app = Flask(__name__)
 
-app.secret_key = os.getenv(
-    "FLASK_SECRET_KEY",
-    "change-this-secret"
-)
+app.secret_key = os.getenv("FLASK_SECRET_KEY")
 
 app.config["MAX_CONTENT_LENGTH"] = 10 * 1024 * 1024
 
